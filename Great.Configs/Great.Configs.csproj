@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;net45</TargetFrameworks>
+    <PackageId>Great.Configs</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Pursuant Solutions</Authors>
+    <Company>Pursuant Solutions</Company>
+    <Product />
+    <Description>A Simple, Precise, and Pretty way to manage application configuration values.</Description>
+    <PackageTags>.net configuration xml serialization config file</PackageTags>
+    <PackageProjectUrl>https://github.com/bepursuant/Great.Configs</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Xml.XmlSerializer" Version="4.3.0" />
+  </ItemGroup>
+
+</Project>
